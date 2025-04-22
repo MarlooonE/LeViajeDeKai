@@ -388,7 +388,7 @@ label:hover {
 .word-image,
 .maze-image {
     width: 100%; /* Ajusta el ancho al 100% del contenedor */
-    height: 200px; /* Ajusta la altura según tus necesidades */
+    height: 600px; /* Ajusta la altura según tus necesidades */
     object-fit: contain; /* Cambia a 'cover' si deseas que la imagen cubra el área */
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
@@ -396,6 +396,14 @@ label:hover {
     background: #fff;
     padding: 20px;
 }
+/* Media query para pantallas pequeñas */
+@media (max-width: 600px) {
+    .sudoku-image,
+    .word-image,
+    .maze-image {
+        max-height: 200px; /* Reduce la altura máxima en pantallas pequeñas */
+    }
+
 
 /* Efecto de hover para las imágenes */
 .sudoku-image:hover,
