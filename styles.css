@@ -387,7 +387,7 @@ label:hover {
 .sudoku-image,
 .word-image,
 .maze-image {
-    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    width: 200%; /* Ajusta el ancho al 100% del contenedor */
     height: 600px; /* Ajusta la altura según tus necesidades */
     object-fit: contain; /* Cambia a 'cover' si deseas que la imagen cubra el área */
     border-radius: 15px;
