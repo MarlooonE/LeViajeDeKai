@@ -401,7 +401,7 @@ label:hover {
     .sudoku-image,
     .word-image,
     .maze-image {
-        max-height: 200px; /* Reduce la altura máxima en pantallas pequeñas */
+        max-height: 600px; /* Reduce la altura máxima en pantallas pequeñas */
     }
 
 
