@@ -388,7 +388,7 @@ label:hover {
 .word-image,
 .maze-image {
     width: 100%; /* Ajusta el ancho al 100% del contenedor */
-    height: 700px; /* Ajusta la altura según tus necesidades */
+    height: 200px; /* Ajusta la altura según tus necesidades */
     object-fit: contain; /* Cambia a 'cover' si deseas que la imagen cubra el área */
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
