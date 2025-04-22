@@ -1,0 +1,96 @@
+
+  <!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El viaje de Kai</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="card">
+        <h2 id="title">Bienvenido al viaje de Kai</h2>
+        <p id="story">Kai se encuentra en un bosque mágico, lleno de caminos que representan emociones, pensamientos y desafíos. ¿Estás listo para acompañarlo?</p>
+        <div id="reflection"></div>
+        <div class="options" id="options"></div>
+    </div>
+ <!-- Tarjeta principal -->
+ <div class="relax-gallery">
+    <button id="relaxBtn" class="relax-button">Momentos para relajarte</button>
+    
+    <!-- Modal de relajación -->
+    <div id="relaxModal" class="relax-modal">
+        <div class="relax-content">
+            <img id="relaxImage" src="" alt="Imagen de relajación" class="relax-image">
+            <div class="image-controls">
+                <button id="prevImage" class="nav-button">←</button>
+                <button id="closeRelaxModal" class="nav-button">Salir</button>
+                <button id="nextImage" class="nav-button">→</button>
+            </div>
+            <p id="inspirationalQuote" class="inspirational-quote"></p> <!-- Frase inspiracional -->
+        </div>
+    </div>
+</div>
+
+<div class="puzzle-gallery">
+    <button id="sudokuBtn" class="relax-button">Sudokus</button>
+    
+    <div id="sudokuModal" class="relax-modal">
+        <div class="relax-content">
+            <img id="sudokuImage" src="" alt="Sudoku" class="sudoku-image">
+            <div class="image-controls">
+                <button id="prevSudoku" class="nav-button">←</button>
+                <button id="closeSudokuModal" class="nav-button">Salir</button> <!-- Asegúrate de que este ID sea correcto -->
+                <button id="nextSudoku" class="nav-button">→</button>
+            </div>
+            <p id="sudokuQuote" class="inspirational-quote"></p> <!-- Frase inspiracional para Sudoku -->
+        </div>
+    </div>
+</div>
+
+<div class="word-gallery">
+    <button id="wordBtn" class="relax-button">Sopas de letra</button>
+    
+    <div id="wordModal" class="relax-modal">
+        <div class="relax-content">
+            <img id="wordImage" src="" alt="Sopa de letras" class="word-image">
+            <div class="image-controls">
+                <button id="prevWord" class="nav-button">←</button>
+                <button id="closeWordModal" class="nav-button">Salir</button> <!-- Asegúrate de que este ID sea correcto -->
+                <button id="nextWord" class="nav-button">→</button>
+            </div>
+            <p id="wordQuote" class="inspirational-quote"></p> <!-- Frase inspiracional para Sopa de Letras -->
+        </div>
+    </div>
+</div>
+
+<div class="maze-gallery">
+    <button id="mazeBtn" class="relax-button">Laberintos</button>
+    
+    <div id="mazeModal" class="relax-modal">
+        <div class="relax-content">
+            <img id="mazeImage" src="" alt="Laberinto" class="maze-image">
+            <div class="image-controls">
+                <button id="prevMaze" class="nav-button">←</button>
+                <button id="closeMazeModal" class="nav-button">Salir</button> <!-- Asegúrate de que este ID sea correcto -->
+                <button id="nextMaze" class="nav-button">→</button>
+            </div>
+            <p id="mazeQuote" class="inspirational-quote"></p> <!-- Frase inspiracional para Laberintos -->
+        </div>
+    </div>
+</div>
+
+ 
+        
+    <!-- Controles de audio -->
+    <div class="audio-controls">
+        <audio id="audioPlayer" src="audio/clasica.mp3" loop></audio>
+        <button id="playPauseBtn" class="audio-button">▶</button>
+        <input type="range" id="volumeControl" class="volume-control" min="0" max="1" step="0.1" value="0.7">
+    </    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
